@@ -1,0 +1,21 @@
+{
+    "name": "undefinedor/smart-rest",
+    "description": "A smart rest function for yii2",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "undefinedor",
+            "email": "wanghao@imwh.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": ">=2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SmartRest\\": "src"
+        }
+    }
+}
